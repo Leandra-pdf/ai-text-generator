@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My First Webpage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- 1. Page title -->
+    <h1>Hello, World!</h1>
+
+    <!-- 2. Intro text and image -->
+    <section id="intro">
+        <p>Hi! My name is Leandra, and I'm currently learning HTML, CSS, and JavaScript with Parsity!</p>
+        <img src="https://static.wikia.nocookie.net/rise-of-the-brave-tangled-dragons/images/1/12/Berk_HTTYD2.jpg/revision/latest?cb=20140406002504" alt="Scenic HTTYD mountain landscape" width="550"/>
+    </section>
+
+    <!-- 3. Controls and Counter -->
+    <div id="controls-counter-row">
+    <section id="controls-section">
+        <h2>Controls</h2>
+        <button id="bg-btn">Change Background Color</button>
+        <button id="toggle-btn">Hide Paragraph</button>
+        <p id="toggle-text">I'm currently on a journey to become an AI Engineer, and I'd love your support along the way! With a background in infosec, I'm specifically interested in bridging security and artificial intelligence. Excited to connect, learn, and grow as I dive into this space!</p>
+    </section>
+
+    <!-- 4. Counter Feature -->
+    <section id="counter-section">
+        <h2>Counter</h2>
+        <button id="minus-btn">-</button>
+        <span id="count-display">0</span>
+        <button id="plus-btn">+</button>
+        <button id="reset-btn">Reset</button>
+    </section>
+    </div>
+
+    <!-- 5. Lists section and AI chat -->
+    <div id="two-column-row">
+    <section id="lists-section">
+        <h2>Vector Embedding Process</h2>
+        <ol>
+            <li>embedding model</li>
+            <li>apply embedding model to the text</li>
+            <li>attach vectors</li>
+            <li>create vectors as the output</li>
+            <li>store vectors</li>
+            <li>use vectors to enable semantic retrieval and natural language query</li>
+        </ol>
+
+        <h2>Prettiest Flowers (says Google)</h2>
+        <ul>
+            <li class="items">Cherry Blossom</li>
+            <li class="items">Peony</li>
+            <li class="items">Orchid</li>
+            <li class="items">Dahlia</li>
+            <li class="items">Garden Rose</li>
+        </ul>
+
+        <h2>Honorable Mentions</h2>
+        <ul>
+            <li class="items">Tulip</li>
+            <li class="items">Hydrangea</li>
+            <li class="items">Sunflower</li>
+            <li class="items">Lotus</li>
+            <li class="items">Hibiscus</li>
+            <li class="items">Lavender</li>
+            <li class="items">Iris</li>
+            <li class="items">Marigold</li>
+        </ul>
+    </section>
+
+    <!-- 6. AI Chat Feature -->
+    <section id="chat-section">
+        <h2>Chat with AI</h2>
+        <div id="chat-window"></div>
+        <div id="chat-input-row">
+            <input type="text" id="content" placeholder="Type a message..."/>
+            <button id="baton">Send</button>
+        </div>
+    </section>
+    </div>
+
+    <!-- 7. Footer text, centered -->
+    <section id="footer-section">
+        <p>Below is a song to match the picture above</p>
+        <a id="linked" href="https://www.youtube.com/watch?v=hNFM2f4BvAo">Enjoy!</a>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/9.1.6/marked.min.js"></script>
+    <script src="config.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
